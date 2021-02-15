@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07046A1925D7EF9600708078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07046A1825D7EF9600708078 /* AppDelegate.swift */; };
+		07046A1B25D7EF9600708078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07046A1A25D7EF9600708078 /* SceneDelegate.swift */; };
+		07046A2025D7EF9600708078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07046A1E25D7EF9600708078 /* Main.storyboard */; };
+		07046A2225D7EF9C00708078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07046A2125D7EF9C00708078 /* Assets.xcassets */; };
+		07046A2525D7EF9C00708078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07046A2325D7EF9C00708078 /* LaunchScreen.storyboard */; };
+		07046A3B25D7EF9D00708078 /* VirginMoneyChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07046A3A25D7EF9D00708078 /* VirginMoneyChallengeUITests.swift */; };
+		07046A4F25D7F44B00708078 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07046A4E25D7F44B00708078 /* Constants.swift */; };
+		0708229B25D7F6FC007F157F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0708229A25D7F6FC007F157F /* Colors.swift */; };
+		070822A125D7FD4C007F157F /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822A025D7FD4C007F157F /* People.swift */; };
+		070822A625D7FE17007F157F /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822A525D7FE17007F157F /* PeopleViewController.swift */; };
+		070822AB25D7FE2C007F157F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822AA25D7FE2C007F157F /* NetworkManager.swift */; };
+		070822BC25D802FD007F157F /* NetworkRequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822BB25D802FD007F157F /* NetworkRequestRouter.swift */; };
+		070822C125D81151007F157F /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822C025D81151007F157F /* CommonFunction.swift */; };
+		070822CE25D8236B007F157F /* PeopleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822CD25D8236B007F157F /* PeopleDetailViewController.swift */; };
+		070822D325D82967007F157F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822D225D82967007F157F /* Coordinator.swift */; };
+		070822D825D829E0007F157F /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822D725D829E0007F157F /* PeopleViewModel.swift */; };
+		070822E325D845F4007F157F /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822E225D845F4007F157F /* RoomsViewController.swift */; };
+		070822EB25D84641007F157F /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822EA25D84641007F157F /* Room.swift */; };
+		070822F025D846CE007F157F /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822EF25D846CE007F157F /* RoomsViewModel.swift */; };
+		070822F625D86410007F157F /* ItemTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070822F425D86410007F157F /* ItemTableCell.swift */; };
+		070822F725D86410007F157F /* ItemTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070822F525D86410007F157F /* ItemTableCell.xib */; };
+		07D0E25125D9B5F2004A0E1D /* PeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0E25025D9B5F2004A0E1D /* PeopleTests.swift */; };
+		07D0E25625D9C380004A0E1D /* RoomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0E25525D9C380004A0E1D /* RoomsTests.swift */; };
+		07D0E2BA25D9CAB0004A0E1D /* CommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0E2B925D9CAB0004A0E1D /* CommonTests.swift */; };
+		07D0E2C525DA855F004A0E1D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D0E2C425DA855F004A0E1D /* Strings.swift */; };
+		65894E0DD91DE46599A94CC0 /* Pods_VirginMoneyChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B9DE6F85B8EC47FDEE2BB2 /* Pods_VirginMoneyChallengeTests.framework */; };
+		B40BAD927119CDD728C119F4 /* Pods_VirginMoneyChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D560C235872E30E83B096E /* Pods_VirginMoneyChallenge.framework */; };
+		DDE22628B909B73C660F8588 /* Pods_VirginMoneyChallenge_VirginMoneyChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED79EF65370229FCC30AEC /* Pods_VirginMoneyChallenge_VirginMoneyChallengeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07046A2C25D7EF9D00708078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07046A0D25D7EF9600708078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07046A1425D7EF9600708078;
+			remoteInfo = VirginMoneyChallenge;
+		};
+		07046A3725D7EF9D00708078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07046A0D25D7EF9600708078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07046A1425D7EF9600708078;
+			remoteInfo = VirginMoneyChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07046A1525D7EF9600708078 /* VirginMoneyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirginMoneyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07046A1825D7EF9600708078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07046A1A25D7EF9600708078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07046A1F25D7EF9600708078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07046A2125D7EF9C00708078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07046A2425D7EF9C00708078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07046A2625D7EF9C00708078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07046A2B25D7EF9D00708078 /* VirginMoneyChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirginMoneyChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07046A3125D7EF9D00708078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07046A3625D7EF9D00708078 /* VirginMoneyChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirginMoneyChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07046A3A25D7EF9D00708078 /* VirginMoneyChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirginMoneyChallengeUITests.swift; sourceTree = "<group>"; };
+		07046A3C25D7EF9D00708078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07046A4E25D7F44B00708078 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0708229A25D7F6FC007F157F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		070822A025D7FD4C007F157F /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		070822A525D7FE17007F157F /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		070822AA25D7FE2C007F157F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		070822BB25D802FD007F157F /* NetworkRequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestRouter.swift; sourceTree = "<group>"; };
+		070822C025D81151007F157F /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		070822CD25D8236B007F157F /* PeopleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailViewController.swift; sourceTree = "<group>"; };
+		070822D225D82967007F157F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		070822D725D829E0007F157F /* PeopleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		070822E225D845F4007F157F /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		070822EA25D84641007F157F /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		070822EF25D846CE007F157F /* RoomsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
+		070822F425D86410007F157F /* ItemTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableCell.swift; sourceTree = "<group>"; };
+		070822F525D86410007F157F /* ItemTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableCell.xib; sourceTree = "<group>"; };
+		07D0E25025D9B5F2004A0E1D /* PeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTests.swift; sourceTree = "<group>"; };
+		07D0E25525D9C380004A0E1D /* RoomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsTests.swift; sourceTree = "<group>"; };
+		07D0E2B925D9CAB0004A0E1D /* CommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTests.swift; sourceTree = "<group>"; };
+		07D0E2C425DA855F004A0E1D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		0CF6F6DD7FF16D10DC59AC73 /* Pods-VirginMoneyChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirginMoneyChallenge.release.xcconfig"; path = "Target Support Files/Pods-VirginMoneyChallenge/Pods-VirginMoneyChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		346558B456578416BF285FD1 /* Pods-VirginMoneyChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirginMoneyChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-VirginMoneyChallengeTests/Pods-VirginMoneyChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		57B1DEA67B62241CC3E17B9D /* Pods-VirginMoneyChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirginMoneyChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-VirginMoneyChallengeTests/Pods-VirginMoneyChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BED79EF65370229FCC30AEC /* Pods_VirginMoneyChallenge_VirginMoneyChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirginMoneyChallenge_VirginMoneyChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		600037F13CC56860BE94D8AD /* Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90D560C235872E30E83B096E /* Pods_VirginMoneyChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirginMoneyChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CB4D3C51E2CB0C65C3877A /* Pods-VirginMoneyChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirginMoneyChallenge.debug.xcconfig"; path = "Target Support Files/Pods-VirginMoneyChallenge/Pods-VirginMoneyChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		CF6FEDDE3CEE4E0778F5CE77 /* Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5B9DE6F85B8EC47FDEE2BB2 /* Pods_VirginMoneyChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirginMoneyChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07046A1225D7EF9600708078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40BAD927119CDD728C119F4 /* Pods_VirginMoneyChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046A2825D7EF9D00708078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65894E0DD91DE46599A94CC0 /* Pods_VirginMoneyChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046A3325D7EF9D00708078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE22628B909B73C660F8588 /* Pods_VirginMoneyChallenge_VirginMoneyChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07046A0C25D7EF9500708078 = {
+			isa = PBXGroup;
+			children = (
+				07046A1725D7EF9600708078 /* VirginMoneyChallenge */,
+				07046A2E25D7EF9D00708078 /* VirginMoneyChallengeTests */,
+				07046A3925D7EF9D00708078 /* VirginMoneyChallengeUITests */,
+				07046A1625D7EF9600708078 /* Products */,
+				C1E4BA6B38409CC3360DF313 /* Pods */,
+				B1C44A6BB9CBA134A80ADCA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07046A1625D7EF9600708078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07046A1525D7EF9600708078 /* VirginMoneyChallenge.app */,
+				07046A2B25D7EF9D00708078 /* VirginMoneyChallengeTests.xctest */,
+				07046A3625D7EF9D00708078 /* VirginMoneyChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07046A1725D7EF9600708078 /* VirginMoneyChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				070822E125D845E2007F157F /* Rooms */,
+				0708229F25D7FD0A007F157F /* People */,
+				07046A1825D7EF9600708078 /* AppDelegate.swift */,
+				07046A1A25D7EF9600708078 /* SceneDelegate.swift */,
+				07046A1E25D7EF9600708078 /* Main.storyboard */,
+				07046A2125D7EF9C00708078 /* Assets.xcassets */,
+				07046A2325D7EF9C00708078 /* LaunchScreen.storyboard */,
+				07046A2625D7EF9C00708078 /* Info.plist */,
+				0708230D25D978EA007F157F /* Helpers */,
+				0708231225D97913007F157F /* NetworkManager */,
+				0708230E25D97905007F157F /* Cell */,
+			);
+			path = VirginMoneyChallenge;
+			sourceTree = "<group>";
+		};
+		07046A2E25D7EF9D00708078 /* VirginMoneyChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				07046A3125D7EF9D00708078 /* Info.plist */,
+				07D0E25025D9B5F2004A0E1D /* PeopleTests.swift */,
+				07D0E25525D9C380004A0E1D /* RoomsTests.swift */,
+				07D0E2B925D9CAB0004A0E1D /* CommonTests.swift */,
+			);
+			path = VirginMoneyChallengeTests;
+			sourceTree = "<group>";
+		};
+		07046A3925D7EF9D00708078 /* VirginMoneyChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07046A3A25D7EF9D00708078 /* VirginMoneyChallengeUITests.swift */,
+				07046A3C25D7EF9D00708078 /* Info.plist */,
+			);
+			path = VirginMoneyChallengeUITests;
+			sourceTree = "<group>";
+		};
+		0708229F25D7FD0A007F157F /* People */ = {
+			isa = PBXGroup;
+			children = (
+				070822A025D7FD4C007F157F /* People.swift */,
+				070822D725D829E0007F157F /* PeopleViewModel.swift */,
+				070822A525D7FE17007F157F /* PeopleViewController.swift */,
+				070822CD25D8236B007F157F /* PeopleDetailViewController.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		070822E125D845E2007F157F /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				070822E225D845F4007F157F /* RoomsViewController.swift */,
+				070822EA25D84641007F157F /* Room.swift */,
+				070822EF25D846CE007F157F /* RoomsViewModel.swift */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		0708230D25D978EA007F157F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				07046A4E25D7F44B00708078 /* Constants.swift */,
+				0708229A25D7F6FC007F157F /* Colors.swift */,
+				070822C025D81151007F157F /* CommonFunction.swift */,
+				070822D225D82967007F157F /* Coordinator.swift */,
+				07D0E2C425DA855F004A0E1D /* Strings.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0708230E25D97905007F157F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				070822F425D86410007F157F /* ItemTableCell.swift */,
+				070822F525D86410007F157F /* ItemTableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0708231225D97913007F157F /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				070822AA25D7FE2C007F157F /* NetworkManager.swift */,
+				070822BB25D802FD007F157F /* NetworkRequestRouter.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		B1C44A6BB9CBA134A80ADCA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90D560C235872E30E83B096E /* Pods_VirginMoneyChallenge.framework */,
+				5BED79EF65370229FCC30AEC /* Pods_VirginMoneyChallenge_VirginMoneyChallengeUITests.framework */,
+				F5B9DE6F85B8EC47FDEE2BB2 /* Pods_VirginMoneyChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1E4BA6B38409CC3360DF313 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4CB4D3C51E2CB0C65C3877A /* Pods-VirginMoneyChallenge.debug.xcconfig */,
+				0CF6F6DD7FF16D10DC59AC73 /* Pods-VirginMoneyChallenge.release.xcconfig */,
+				600037F13CC56860BE94D8AD /* Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests.debug.xcconfig */,
+				CF6FEDDE3CEE4E0778F5CE77 /* Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests.release.xcconfig */,
+				57B1DEA67B62241CC3E17B9D /* Pods-VirginMoneyChallengeTests.debug.xcconfig */,
+				346558B456578416BF285FD1 /* Pods-VirginMoneyChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07046A1425D7EF9600708078 /* VirginMoneyChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07046A3F25D7EF9D00708078 /* Build configuration list for PBXNativeTarget "VirginMoneyChallenge" */;
+			buildPhases = (
+				68891C7086DB7B8C5D183534 /* [CP] Check Pods Manifest.lock */,
+				07046A1125D7EF9600708078 /* Sources */,
+				07046A1225D7EF9600708078 /* Frameworks */,
+				07046A1325D7EF9600708078 /* Resources */,
+				6C5DA4BB8D3044FF37249644 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirginMoneyChallenge;
+			productName = VirginMoneyChallenge;
+			productReference = 07046A1525D7EF9600708078 /* VirginMoneyChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07046A2A25D7EF9D00708078 /* VirginMoneyChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07046A4225D7EF9D00708078 /* Build configuration list for PBXNativeTarget "VirginMoneyChallengeTests" */;
+			buildPhases = (
+				912815175C3C17D253CEED48 /* [CP] Check Pods Manifest.lock */,
+				07046A2725D7EF9D00708078 /* Sources */,
+				07046A2825D7EF9D00708078 /* Frameworks */,
+				07046A2925D7EF9D00708078 /* Resources */,
+				C4AEDCE5514A197D0EBCE16A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07046A2D25D7EF9D00708078 /* PBXTargetDependency */,
+			);
+			name = VirginMoneyChallengeTests;
+			productName = VirginMoneyChallengeTests;
+			productReference = 07046A2B25D7EF9D00708078 /* VirginMoneyChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07046A3525D7EF9D00708078 /* VirginMoneyChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07046A4525D7EF9D00708078 /* Build configuration list for PBXNativeTarget "VirginMoneyChallengeUITests" */;
+			buildPhases = (
+				5ABB7E90B0C8C0AD9AE144C6 /* [CP] Check Pods Manifest.lock */,
+				07046A3225D7EF9D00708078 /* Sources */,
+				07046A3325D7EF9D00708078 /* Frameworks */,
+				07046A3425D7EF9D00708078 /* Resources */,
+				BA7B87FCBD6B1813FF438321 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07046A3825D7EF9D00708078 /* PBXTargetDependency */,
+			);
+			name = VirginMoneyChallengeUITests;
+			productName = VirginMoneyChallengeUITests;
+			productReference = 07046A3625D7EF9D00708078 /* VirginMoneyChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07046A0D25D7EF9600708078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					07046A1425D7EF9600708078 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					07046A2A25D7EF9D00708078 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 07046A1425D7EF9600708078;
+					};
+					07046A3525D7EF9D00708078 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 07046A1425D7EF9600708078;
+					};
+				};
+			};
+			buildConfigurationList = 07046A1025D7EF9600708078 /* Build configuration list for PBXProject "VirginMoneyChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07046A0C25D7EF9500708078;
+			productRefGroup = 07046A1625D7EF9600708078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07046A1425D7EF9600708078 /* VirginMoneyChallenge */,
+				07046A2A25D7EF9D00708078 /* VirginMoneyChallengeTests */,
+				07046A3525D7EF9D00708078 /* VirginMoneyChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07046A1325D7EF9600708078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07046A2525D7EF9C00708078 /* LaunchScreen.storyboard in Resources */,
+				070822F725D86410007F157F /* ItemTableCell.xib in Resources */,
+				07046A2225D7EF9C00708078 /* Assets.xcassets in Resources */,
+				07046A2025D7EF9600708078 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046A2925D7EF9D00708078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046A3425D7EF9D00708078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5ABB7E90B0C8C0AD9AE144C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68891C7086DB7B8C5D183534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirginMoneyChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5DA4BB8D3044FF37249644 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirginMoneyChallenge/Pods-VirginMoneyChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirginMoneyChallenge/Pods-VirginMoneyChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirginMoneyChallenge/Pods-VirginMoneyChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		912815175C3C17D253CEED48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirginMoneyChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7B87FCBD6B1813FF438321 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests/Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4AEDCE5514A197D0EBCE16A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirginMoneyChallengeTests/Pods-VirginMoneyChallengeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirginMoneyChallengeTests/Pods-VirginMoneyChallengeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirginMoneyChallengeTests/Pods-VirginMoneyChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07046A1125D7EF9600708078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070822D825D829E0007F157F /* PeopleViewModel.swift in Sources */,
+				070822F625D86410007F157F /* ItemTableCell.swift in Sources */,
+				070822C125D81151007F157F /* CommonFunction.swift in Sources */,
+				070822EB25D84641007F157F /* Room.swift in Sources */,
+				070822F025D846CE007F157F /* RoomsViewModel.swift in Sources */,
+				070822A625D7FE17007F157F /* PeopleViewController.swift in Sources */,
+				070822CE25D8236B007F157F /* PeopleDetailViewController.swift in Sources */,
+				070822BC25D802FD007F157F /* NetworkRequestRouter.swift in Sources */,
+				0708229B25D7F6FC007F157F /* Colors.swift in Sources */,
+				070822E325D845F4007F157F /* RoomsViewController.swift in Sources */,
+				07046A1925D7EF9600708078 /* AppDelegate.swift in Sources */,
+				070822AB25D7FE2C007F157F /* NetworkManager.swift in Sources */,
+				07D0E2C525DA855F004A0E1D /* Strings.swift in Sources */,
+				070822D325D82967007F157F /* Coordinator.swift in Sources */,
+				07046A1B25D7EF9600708078 /* SceneDelegate.swift in Sources */,
+				070822A125D7FD4C007F157F /* People.swift in Sources */,
+				07046A4F25D7F44B00708078 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046A2725D7EF9D00708078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D0E2BA25D9CAB0004A0E1D /* CommonTests.swift in Sources */,
+				07D0E25625D9C380004A0E1D /* RoomsTests.swift in Sources */,
+				07D0E25125D9B5F2004A0E1D /* PeopleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07046A3225D7EF9D00708078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07046A3B25D7EF9D00708078 /* VirginMoneyChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07046A2D25D7EF9D00708078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07046A1425D7EF9600708078 /* VirginMoneyChallenge */;
+			targetProxy = 07046A2C25D7EF9D00708078 /* PBXContainerItemProxy */;
+		};
+		07046A3825D7EF9D00708078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07046A1425D7EF9600708078 /* VirginMoneyChallenge */;
+			targetProxy = 07046A3725D7EF9D00708078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07046A1E25D7EF9600708078 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07046A1F25D7EF9600708078 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07046A2325D7EF9C00708078 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07046A2425D7EF9C00708078 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07046A3D25D7EF9D00708078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07046A3E25D7EF9D00708078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07046A4025D7EF9D00708078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4CB4D3C51E2CB0C65C3877A /* Pods-VirginMoneyChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5264B7MLQG;
+				INFOPLIST_FILE = VirginMoneyChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirginMoney.challenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07046A4125D7EF9D00708078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF6F6DD7FF16D10DC59AC73 /* Pods-VirginMoneyChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5264B7MLQG;
+				INFOPLIST_FILE = VirginMoneyChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirginMoney.challenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07046A4325D7EF9D00708078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B1DEA67B62241CC3E17B9D /* Pods-VirginMoneyChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5264B7MLQG;
+				INFOPLIST_FILE = VirginMoneyChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirginMoneyChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirginMoneyChallenge.app/VirginMoneyChallenge";
+			};
+			name = Debug;
+		};
+		07046A4425D7EF9D00708078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346558B456578416BF285FD1 /* Pods-VirginMoneyChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5264B7MLQG;
+				INFOPLIST_FILE = VirginMoneyChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirginMoneyChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirginMoneyChallenge.app/VirginMoneyChallenge";
+			};
+			name = Release;
+		};
+		07046A4625D7EF9D00708078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 600037F13CC56860BE94D8AD /* Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5264B7MLQG;
+				INFOPLIST_FILE = VirginMoneyChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirginMoneyChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirginMoneyChallenge;
+			};
+			name = Debug;
+		};
+		07046A4725D7EF9D00708078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6FEDDE3CEE4E0778F5CE77 /* Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5264B7MLQG;
+				INFOPLIST_FILE = VirginMoneyChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VirginMoneyChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirginMoneyChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07046A1025D7EF9600708078 /* Build configuration list for PBXProject "VirginMoneyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07046A3D25D7EF9D00708078 /* Debug */,
+				07046A3E25D7EF9D00708078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07046A3F25D7EF9D00708078 /* Build configuration list for PBXNativeTarget "VirginMoneyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07046A4025D7EF9D00708078 /* Debug */,
+				07046A4125D7EF9D00708078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07046A4225D7EF9D00708078 /* Build configuration list for PBXNativeTarget "VirginMoneyChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07046A4325D7EF9D00708078 /* Debug */,
+				07046A4425D7EF9D00708078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07046A4525D7EF9D00708078 /* Build configuration list for PBXNativeTarget "VirginMoneyChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07046A4625D7EF9D00708078 /* Debug */,
+				07046A4725D7EF9D00708078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07046A0D25D7EF9600708078 /* Project object */;
+}

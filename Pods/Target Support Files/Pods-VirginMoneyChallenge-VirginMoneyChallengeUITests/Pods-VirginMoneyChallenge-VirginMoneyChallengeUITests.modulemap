@@ -1,0 +1,6 @@
+framework module Pods_VirginMoneyChallenge_VirginMoneyChallengeUITests {
+  umbrella header "Pods-VirginMoneyChallenge-VirginMoneyChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
